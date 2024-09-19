@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "prueba-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build1": "rollup --watch --config",
+    "sass": "sass --watch --style=compressed sass/index.scss public/build1.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "rollup": "^4.21.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}

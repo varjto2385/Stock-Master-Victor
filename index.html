@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Master</title>
+    <link rel="stylesheet" href="./public/build1.css">
+</head>
+<body>
+    <main>
+        <div class="contenedor__todo">
+
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>¿Ya tienes una Cuenta?</h3>
+                    <p>Inicia sesión para entrar en la Pagina</p>
+                    <button id="btn__iniciar-sesion">Iniciar sesion</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>¿Aun no tienes una Cuenta?</h3>
+                    <p>Regístrate para que puedas iniciar Sesion</p>
+                    <button id="btn__registrarse">Regístrarse</button>
+                </div>
+            </div>
+
+            <div class="contenedor__login-register">
+                <form action="" id = "formulario__login" class="formulario__login">
+                    <center><img src="imagenes/img_stockmaster.png" width="200" height="152" alt="Logo StockMaster"></center>                  
+                    <h2>Iniciar Sesión</h2>
+                    <input type="text" placeholder="Correo Electronico" id="email">
+                    <input type="password" placeholder="Contraseña" id="password">                  
+                    <a class="btn1"  href="./menu.html" target="_blank">Ingresar</a>             
+                </form>
+
+                <form action="" id = "formulario__register" class="formulario__register">
+                    <h2>Registrarse</h2>
+                    <input type="text" placeholder="Nombre Completo" id="nombre">
+                    <input type="text" placeholder="Correo electronico" id="email">
+                    <input type="text" placeholder="Usuario" id="user">
+                    <input type="password" placeholder="Contraseña" id="password">
+                    <button>Regístrarse</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
